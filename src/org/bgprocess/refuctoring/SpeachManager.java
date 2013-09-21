@@ -4,7 +4,7 @@ package org.bgprocess.refuctoring;
 public class SpeachManager implements MuteSpeaechManagerINterface {
 
 	static String control(SpeachBuilder speachWriter) throws Exception{
-		     return speachWriter.sayHello(speachWriter) + speachWriter.saySomething2() + speachWriter.sayWorld() + speachWriter.saySomething();
+		     return speachWriter.sayHello(speachWriter) + speachWriter.saySomething2() + speachWriter.sayWorld() + speachWriter.sayPiratically();
 				
 	}
 
